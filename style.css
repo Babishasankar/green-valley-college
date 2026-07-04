@@ -1,0 +1,510 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+
+font-family:'Poppins',sans-serif;
+
+background:#f8f9fa;
+
+}
+
+a{
+
+text-decoration:none;
+
+}
+
+section{
+
+padding:90px 0;
+
+}
+
+
+
+
+.hero{
+
+background:linear-gradient(rgba(10,35,66,.75),
+rgba(10,35,66,.75)),
+url("https://images.unsplash.com/photo-1562774053-701939374585?w=1600");
+
+background-size:cover;
+
+background-position:center;
+
+background-repeat:no-repeat;
+
+}
+
+.admission-bar{
+
+background:#ffc107;
+
+color:#0b2345;
+
+}
+
+
+
+
+.about-card{
+
+background:white;
+
+padding:25px;
+
+border-radius:15px;
+
+text-align:center;
+
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+margin-top:20px;
+
+transition:.3s;
+
+}
+
+.about-card:hover{
+
+transform:translateY(-8px);
+
+}
+
+
+
+
+.course-card{
+
+border:none;
+
+border-radius:20px;
+
+padding:20px;
+
+transition:.4s;
+
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+}
+
+.course-card:hover{
+
+transform:translateY(-10px);
+
+box-shadow:0 20px 35px rgba(0,0,0,.15);
+
+}
+
+
+.feature-box{
+
+background:#fff;
+
+padding:35px;
+
+border-radius:20px;
+
+text-align:center;
+
+box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+transition:.4s;
+
+height:100%;
+
+}
+
+.feature-box:hover{
+
+transform:translateY(-10px);
+
+}
+
+.feature-icon{
+
+font-size:50px;
+
+color:#0d6efd;
+
+margin-bottom:20px;
+
+}
+
+
+
+.stats{
+
+background:#0b2345;
+
+color:white;
+
+padding:80px 0;
+
+}
+
+.stats h1{
+
+font-size:60px;
+
+font-weight:700;
+
+color:#ffc107;
+
+}
+
+.stats p{
+
+font-size:20px;
+
+}
+
+
+
+.gallery-img{
+    width:100%;
+    height:280px;
+    object-fit:cover;
+    border-radius:20px;
+    transition:0.4s;
+}
+
+.gallery-img:hover{
+    transform:scale(1.05);
+    box-shadow:0 15px 35px rgba(0,0,0,.2);
+}
+
+
+
+.company-card{
+    background:#fff;
+    border-radius:15px;
+    padding:20px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.08);
+    transition:0.3s;
+    height:120px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.company-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 15px 30px rgba(0,0,0,0.15);
+}
+
+.company-logo{
+    max-width:100px;
+    max-height:60px;
+    object-fit:contain;
+}
+
+
+
+
+/* Admissions Section */
+
+#admissions{
+    background:#f8f9fa;
+}
+
+.admission-img{
+    width:100%;
+    height:500px;
+    object-fit:cover;
+    border-radius:20px;
+    transition:0.4s;
+}
+
+.admission-img:hover{
+    transform:scale(1.03);
+}
+
+#admissions .btn{
+    border-radius:50px;
+    padding:12px 28px;
+    font-weight:600;
+}
+
+#admissions h2{
+    color:#0b2345;
+}
+
+
+
+/* Contact Section */
+
+.contact-info{
+
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+
+}
+
+.contact-box{
+
+    display:flex;
+    align-items:flex-start;
+    gap:20px;
+
+    background:#fff;
+
+    padding:25px;
+
+    border-radius:15px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+}
+
+.contact-box:hover{
+
+    transform:translateY(-5px);
+
+}
+
+.contact-box i{
+
+    width:60px;
+    height:60px;
+
+    background:#0d6efd;
+
+    color:#fff;
+
+    border-radius:50%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:24px;
+
+    flex-shrink:0;
+
+}
+
+.contact-form{
+
+    background:#fff;
+
+    padding:35px;
+
+    border-radius:15px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+}
+
+.contact-form .form-control{
+
+    padding:12px;
+
+    border-radius:10px;
+
+}
+
+.contact-form .form-control:focus{
+
+    box-shadow:none;
+
+    border-color:#0d6efd;
+
+}
+
+.contact-form button{
+
+    border-radius:50px;
+
+    padding:12px 35px;
+
+    font-weight:600;
+
+}
+
+
+/* Footer */
+
+.footer{
+
+    background:#0B2345;
+
+    color:#d9d9d9;
+
+    padding:60px 0 20px;
+
+}
+
+.footer p{
+
+    line-height:1.8;
+
+}
+
+.footer i{
+
+    color:#FFC107;
+
+}
+
+.social-icons{
+
+    display:flex;
+
+    gap:15px;
+
+}
+
+.social-icons a{
+
+    width:45px;
+
+    height:45px;
+
+    background:white;
+
+    color:#0B2345;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    border-radius:50%;
+
+    text-decoration:none;
+
+    font-size:20px;
+
+    transition:0.3s;
+
+}
+
+.social-icons a:hover{
+
+    background:#FFC107;
+
+    color:#000;
+
+    transform:translateY(-5px);
+
+}
+
+.footer-line{
+
+    border-color:rgba(255,255,255,.2);
+
+    margin:40px 0 20px;
+
+}
+
+
+
+.logo{
+
+    width:70px;
+
+    height:70px;
+
+}
+
+.brand-name{
+
+    font-size:22px;
+
+    font-weight:700;
+
+    color:#0d6efd;
+
+}
+
+
+/* ===========================
+        COURSES SECTION
+=========================== */
+
+#courses{
+
+    background:#f8f9fa;
+
+}
+
+.course-card{
+
+    border:none;
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    transition:.4s;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+}
+
+.course-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 20px 40px rgba(0,0,0,.15);
+
+}
+
+.course-card img{
+
+    height:230px;
+
+    object-fit:cover;
+
+}
+
+.course-card .card-body{
+
+    padding:25px;
+
+}
+
+.course-card h4{
+
+    color:#0d6efd;
+
+    font-weight:700;
+
+}
+
+.course-card p{
+
+    color:#666;
+
+    margin-top:15px;
+
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+.nav-link{
+
+    transition:.3s;
+
+}
+
+.nav-link:hover{
+
+    color:#0d6efd !important;
+
+}
